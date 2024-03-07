@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baskervville';
+}
+body {
+    height: 1740px;
+    padding: 5px;
+    background: url('https://previews.123rf.com/images/olgazhurba/olgazhurba1805/olgazhurba180500014/101212078-technology-background-and-abstract-digital-tech-circle-with-various-technological-elements.jpg')
+}
+
+header {
+    background-color: #97FEED;
+    border-radius: 10px;
+    border: solid 4px;
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20201022/pngtree-abstract-technology-background-line-high-tech-electricity-image_430309.jpg');
+}
+
+header h1 {
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    color: white;
+    -webkit-text-stroke: 1.5px black; 
+}
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 100px
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px, 15px;
+    position: relative;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: green;
+    transition: 0.5s;
+}
+main {
+    padding-top: 3px;
+}
+.desck {
+    display: flex;
+    margin-top: 10px;
+    background: url('https://i.pinimg.com/originals/87/91/00/8791009aad70b34896002122588a1876.jpg');
+    border-radius: 10px;
+    padding: 5px;
+    flex-direction: row;
+    height: fit-content;
+}
+.desck img {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+}
+.desck p {
+    font-size: 23px;
+    margin-bottom: auto;
+    padding: 10px;
+    color: aliceblue;
+}
+.button {
+    padding-top: 5;
+}
+.button button {
+    width: 100%;
+    height: 40px;
+    background-color: aquamarine;
+    font-size: 20px;
+}
+#hobbies {
+    border-radius: 10px;
+    background: url('https://img.freepik.com/free-vector/blue-gradient-technology-background_23-2149112673.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709510400&semt=ais');
+}
+#hobbies h2 {
+    justify-content: center;
+    display: flex;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 35px;
+}
+ul {
+    padding-left: 30px;
+
+}
+ul li {
+    font-size: 40px;
+}
+
+li p {
+    padding-left: 20px;
+    font-size: 23px;
+    color: white;
+    -webkit-text-stroke: .20px #333A73;
+}
+#favorite {
+    padding: 5px;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    font-size: 35px;
+    background: url('https://t3.ftcdn.net/jpg/04/92/48/38/360_F_492483827_1ZroF5jdz8ZvYlpsjT90Hb3kxytJ9AQI.jpg');
+}
+#favorite h2 {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10px;
+}
+.fav li {
+    color: black;
+    padding-left: 35px;
+}
