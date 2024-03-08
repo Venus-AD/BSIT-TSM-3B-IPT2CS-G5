@@ -1,0 +1,61 @@
+body {
+  background-image: url('https://images.wallpapersden.com/image/download/iso-valorant-x-overwatch-2-style_bmZsbWiUmZqaraWkpJRobWllrWdma2U.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 10;
+  padding: 10;
+  color: white; 
+
+}
+
+header {
+  background-color: #493bbe;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: disc;
+  margin: 10;
+  padding: 10;
+  background-color: #493bbe;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #493bbe;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+
+#projects {
+    text-align: left;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 70%;
+    height: 150px;
+  }
