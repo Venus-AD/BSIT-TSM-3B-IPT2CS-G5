@@ -2,9 +2,13 @@ body {
     background-color: #124076;
     background: url('https://t4.ftcdn.net/jpg/05/16/14/17/360_F_516141768_GZFZzSIHdpPirWFKmAOp6Q9F3pFuNJ3P.jpg');
 }
-#news-container {
-    background-color: "white"
+.joke {
+    background-color: #EEF5FF;
+    border-radius: 10px;
+    border: solid 4px;
+    width: 400px;
 }
+
 
 header {
     background-color: #97FEED;
