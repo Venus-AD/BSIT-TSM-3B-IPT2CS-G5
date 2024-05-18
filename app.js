@@ -14,10 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
         jokeElement.innerText = 'Failed to load joke.';
       });
   };
-
-  // Fetch a joke on page load
   fetchJoke();
-
-  // Add event listener to button
   newJokeButton.addEventListener('click', fetchJoke);
 });
